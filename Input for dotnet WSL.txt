@@ -1,0 +1,5 @@
+﻿wsl ps -e  | grep dotnet
+
+  --- Вместо числа 917 нужно подставлять номер процесса из команды выше
+
+bash -c "echo ""Launching a Linux app is not a problem!"" > /proc/917/fd/0"
