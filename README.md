@@ -20,9 +20,9 @@ Console.ReadKey(true);
 
 ```
 ## запуск из Windows:
-ConsoleAppUnicodeUTF8.exe
+* ConsoleAppUnicodeUTF8.exe
 
-dotnet ConsoleAppUnicodeUTF8.dll
+* dotnet ConsoleAppUnicodeUTF8.dll
 
 ## запуск из WSL:
 wsl dotnet ConsoleAppUnicodeUTF8.dll
