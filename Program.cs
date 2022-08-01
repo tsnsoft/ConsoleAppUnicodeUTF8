@@ -9,5 +9,6 @@ if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
 Console.WriteLine("Замечательно! Das ist großartig! Wonderful! 精彩的！ رائع! ");
 var line = Console.ReadLine();
 Console.WriteLine(line);
-Console.Write("Press any key to continue . . . ");
-Console.ReadKey(true);
+
+//Console.Write("Press any key to continue . . . ");
+//Console.ReadKey(true);
