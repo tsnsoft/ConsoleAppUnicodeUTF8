@@ -28,3 +28,11 @@ Console.ReadKey(true);
 wsl dotnet ConsoleAppUnicodeUTF8.dll
 
 (!) Но сперва надо установить и настроить это: https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-6.0.302-linux-x64-binaries
+
+## для отладки под WSL:
+
+wsl ps -e  | grep dotnet
+
+  --- Вместо числа 917 нужно подставлять номер процесса из команды выше
+
+bash -c "echo ""Launching a Linux app is not a problem!"" > /proc/917/fd/0"
