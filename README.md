@@ -1,5 +1,5 @@
 # ConsoleAppUnicodeUTF8
-Пример консольной программы с UTF-8 на C# (Net 6.0) в Visual Studio 2022
+Пример консольной программы с UTF-8 на C# (Net 6.0) в Visual Studio 2022 для Windows 11
 
 ![srcreenshot](screenshot.png)
 
